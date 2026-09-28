@@ -1,0 +1,105 @@
+Enter a string (or 'END' to quit): hello
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 1.2.3.4
+Extracted IPv4 address: 1.2.3.4 (decimal value: 16909060, port: none)
+Enter a string (or 'END' to quit): world
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): hello world
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): h3ll0 W0Rld
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 0
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 0.0.0.0
+Extracted IPv4 address: 0.0.0.0 (decimal value: 0, port: none)
+Enter a string (or 'END' to quit): 0.0.0.0.0
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 0.0.0.0
+Extracted IPv4 address: 0.0.0.0 (decimal value: 0, port: none)
+Enter a string (or 'END' to quit):  
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 0.0.0.0:0
+Extracted IPv4 address: 0.0.0.0 (decimal value: 0, port: 0)
+Enter a string (or 'END' to quit): 0.0.0.0:80
+Extracted IPv4 address: 0.0.0.0 (decimal value: 0, port: 80)
+Enter a string (or 'END' to quit): 0.0.0.0:90
+Extracted IPv4 address: 0.0.0.0 (decimal value: 0, port: 90)
+Enter a string (or 'END' to quit): 0.0.0.0;90
+Extracted IPv4 address: 0.0.0.0 (decimal value: 0, port: none)
+Enter a string (or 'END' to quit): 0.0.0.0:65535
+Extracted IPv4 address: 0.0.0.0 (decimal value: 0, port: 65535)
+Enter a string (or 'END' to quit): 0.0.0.0:65536
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 255.255.25
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 255.255.25.0
+Extracted IPv4 address: 255.255.25.0 (decimal value: 4294908160, port: none)
+Enter a string (or 'END' to quit): 1.2.03.4
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 1.2.3
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 1..2.3.4
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 999.2.3.4
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 5.6.7.8
+Extracted IPv4 address: 5.6.7.8 (decimal value: 84281096, port: none)
+Enter a string (or 'END' to quit): 255.255.255.255
+Extracted IPv4 address: 255.255.255.255 (decimal value: 4294967295, port: none)
+Enter a string (or 'END' to quit): 192.168.1.1
+Extracted IPv4 address: 192.168.1.1 (decimal value: 3232235777, port: none)
+Enter a string (or 'END' to quit): connecting to 192.168.1.1 now
+Extracted IPv4 address: 192.168.1.1 (decimal value: 3232235777, port: none)
+Enter a string (or 'END' to quit): server=10.0.0.255:8080end
+Extracted IPv4 address: 10.0.0.255 (decimal value: 167772415, port: 8080)
+Enter a string (or 'END' to quit): 192a168.1.1.1
+Extracted IPv4 address: 168.1.1.1 (decimal value: 2818638081, port: none)
+Enter a string (or 'END' to quit): 192.168.1.1.
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): Connection from 192.168.1.1 refused
+Extracted IPv4 address: 192.168.1.1 (decimal value: 3232235777, port: none)
+Enter a string (or 'END' to quit): 192.168.01.1
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): 1.2.3.4:99999
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): no number here
+Invalid input: no valid IPv4 address found
+Enter a string (or 'END' to quit): END
+Program terminated.
+PS C:\Users\abdul> 
+
+
+Kinds of manual tests conducted:-
+(some were provided by sample run, others provided by AI, others provided by self)
+1- Text with no address
+2-Digits mixed with letters
+3-Blank input
+4- too little octets
+5- too many octets
+6- empty octet
+7- Valid all 0 address
+8-Maximum octet values
+9- valid addresses and decimal conversions
+10- valid ports
+11- ports above 65545
+12- semicolon separating candidates
+13- address surrounded by words
+14- letters directly touching a candidate
+15- letter separating an invalid candidate from a valid one
+16- trailing period invalidating the whole candidate
+17- termination command
+
+Manual tests conducted: 40
+AI tests conducted: 28

@@ -1,0 +1,10 @@
+I used CHATGPT mode GPT -6 Astra Medium. this tool was used on 9/27/2026 on 8:40PM and finished with the assignment on 10:18 PM of the same day.
+
+
+Link to the Chat for prompt revision: 	https://chatgpt.com/share/6ab9dca8-8544-83ea-922e-7b965854afac 
+
+All of the code was AI generated. After testing the code I saw no need to alter it, so i kept it as is.
+
+I confirm that I understand every line of the submitted code. No blind copying was done. Uncertainties with the code were revised. The code has been tested and works as intended. As far as I've experimented, the first prompt generated the code properly and no bugs or unexpected behaviors were found. Althought, for each kind of invalid input, it does not state why it is invalid. It isn't a part of the assignment to do so but It would help if this situation was for a real world task
+
+P.S: I usually write code by having AI provide me syntax/grammar and guide my understanding and logic of the task, but the assignment tests our usage with generative AI, so I had it generate the code, and was planning on fixing any present bugs. 
